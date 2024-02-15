@@ -1,1 +1,1 @@
-"use strict";var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");var _Watermark=_interopRequireDefault(require("./Watermark"));Object.defineProperty(exports,"__esModule",{value:!0}),Object.defineProperty(exports,"Watermark",{enumerable:!0,get:function get(){return _Watermark["default"]}});
+export{default as Watermark}from"./Watermark";

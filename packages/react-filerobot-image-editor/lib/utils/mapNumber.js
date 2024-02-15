@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var mapNumber=function(a,b,c,d,e){return(a-b)*(e-d)/(c-b)+d},_default=exports["default"]=mapNumber;
+var mapNumber=function(a,b,c,d,e){return(a-b)*(e-d)/(c-b)+d};export default mapNumber;

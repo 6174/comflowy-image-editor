@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _constants=require("./constants"),getZoomFitFactor=function(a,b){return Math.min(a.width/b.width,a.height/b.height)||_constants.DEFAULT_ZOOM_FACTOR},_default=exports["default"]=getZoomFitFactor;
+import{DEFAULT_ZOOM_FACTOR}from"./constants";var getZoomFitFactor=function(a,b){return Math.min(a.width/b.width,a.height/b.height)||DEFAULT_ZOOM_FACTOR};export default getZoomFitFactor;

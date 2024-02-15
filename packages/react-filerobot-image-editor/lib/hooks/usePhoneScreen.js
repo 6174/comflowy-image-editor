@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var usePhoneScreen=function(){var a=0<arguments.length&&arguments[0]!==void 0?arguments[0]:438;return window.matchMedia("(max-width: ".concat(a,"px)")).matches},_default=exports["default"]=usePhoneScreen;
+var usePhoneScreen=function(){var a=0<arguments.length&&arguments[0]!==void 0?arguments[0]:438;return window.matchMedia("(max-width: ".concat(a,"px)")).matches};export default usePhoneScreen;

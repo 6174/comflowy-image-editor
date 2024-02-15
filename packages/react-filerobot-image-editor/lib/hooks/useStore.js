@@ -1,1 +1,1 @@
-"use strict";var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _react=require("react"),_context=_interopRequireDefault(require("../context")),useStore=function(){return(0,_react.useContext)(_context["default"])},_default=exports["default"]=useStore;
+import{useContext}from"react";import AppContext from"../context";var useStore=function(){return useContext(AppContext)};export default useStore;
