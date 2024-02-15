@@ -1,1 +1,1 @@
-import actions from"../actions";var appReducer=function(a,b){return actions[b.type]?actions[b.type](a,b.payload)||a:a};export default appReducer;
+"use strict";var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _actions=_interopRequireDefault(require("../actions")),appReducer=function(a,b){return _actions["default"][b.type]?_actions["default"][b.type](a,b.payload)||a:a},_default=exports["default"]=appReducer;

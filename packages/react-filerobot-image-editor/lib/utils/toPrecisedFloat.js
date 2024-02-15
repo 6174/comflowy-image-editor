@@ -1,1 +1,1 @@
-var toPrecisedFloat=function(a){var b=1<arguments.length&&arguments[1]!==void 0?arguments[1]:5;return a&&+parseFloat(a).toFixed(b)};export default toPrecisedFloat;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var toPrecisedFloat=function(a){var b=1<arguments.length&&arguments[1]!==void 0?arguments[1]:5;return a&&+parseFloat(a).toFixed(b)},_default=exports["default"]=toPrecisedFloat;

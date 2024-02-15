@@ -1,1 +1,1 @@
-import toPrecisedFloat from"./toPrecisedFloat";var compareRatios=function(a,b){return toPrecisedFloat(a)===toPrecisedFloat(b)};export default compareRatios;
+"use strict";var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _toPrecisedFloat=_interopRequireDefault(require("./toPrecisedFloat")),compareRatios=function(a,b){return(0,_toPrecisedFloat["default"])(a)===(0,_toPrecisedFloat["default"])(b)},_default=exports["default"]=compareRatios;

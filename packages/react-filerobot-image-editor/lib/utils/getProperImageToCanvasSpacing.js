@@ -1,1 +1,1 @@
-var SPACING_PERCENTAGE=.05,DEFAULT_SPACING=12,getProperImageToCanvasSpacing=function(){return 2*(window?Math.min(window.innerHeight,window.innerWidth)*SPACING_PERCENTAGE:DEFAULT_SPACING)};export default getProperImageToCanvasSpacing;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var SPACING_PERCENTAGE=.05,DEFAULT_SPACING=12,getProperImageToCanvasSpacing=function(){return 2*(window?Math.min(window.innerHeight,window.innerWidth)*SPACING_PERCENTAGE:DEFAULT_SPACING)},_default=exports["default"]=getProperImageToCanvasSpacing;

@@ -1,1 +1,1 @@
-export{default as Resize}from"./Resize";
+"use strict";var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");var _Resize=_interopRequireDefault(require("./Resize"));Object.defineProperty(exports,"__esModule",{value:!0}),Object.defineProperty(exports,"Resize",{enumerable:!0,get:function get(){return _Resize["default"]}});

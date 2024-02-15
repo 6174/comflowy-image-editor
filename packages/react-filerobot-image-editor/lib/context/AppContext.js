@@ -1,1 +1,1 @@
-import{createContext}from"react";var AppContext=createContext({});export default AppContext;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _react=require("react"),AppContext=(0,_react.createContext)({}),_default=exports["default"]=AppContext;
