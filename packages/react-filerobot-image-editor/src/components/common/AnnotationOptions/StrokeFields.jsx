@@ -8,7 +8,7 @@ import ColorInput from 'components/common/ColorInput';
 import { StyledSpacedOptionFields } from './AnnotationOptions.styled';
 import Slider from '../Slider';
 
-const MIN_PERCENTANGE = 0;
+const MIN_PERCENTANGE = 1;
 const MAX_PERCENTANGE = 100;
 
 const StrokeFields = ({ annotation, updateAnnotation }) => {

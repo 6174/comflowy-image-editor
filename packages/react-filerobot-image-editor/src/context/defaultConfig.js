@@ -50,14 +50,14 @@ export default {
     sides: 3,
   },
   [TOOLS_IDS.PEN]: {
-    strokeWidth: 1,
+    strokeWidth: 8,
     tension: 0.5,
     lineCap: 'round',
     selectAnnotationAfterDrawing: true,
   },
   [TOOLS_IDS.LINE]: {
     lineCap: 'butt', // butt/round/square
-    strokeWidth: 1,
+    strokeWidth: 6,
   },
   [TOOLS_IDS.ARROW]: {
     strokeWidth: 6,
