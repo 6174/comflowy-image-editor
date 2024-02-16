@@ -104,7 +104,7 @@ const SaveButton = () => {
   };
 
   const startSaving = () => {
-    dispatch({ type: SHOW_LOADER });
+    // dispatch({ type: SHOW_LOADER });
     setIsModalOpened(false);
     setTimeout(handleSave, 3);
   };
