@@ -231,7 +231,7 @@ const useTransformedImgData = () => {
     dispatch({ type: SET_SAVED });
     imgNode.clearCache();
 
-    Konva.pixelRatio = previewPixelRatio;
+    Konva.pixelRatio = 4;
 
     const hideLoadingSpinner = () => {
       dispatch({ type: HIDE_LOADER });

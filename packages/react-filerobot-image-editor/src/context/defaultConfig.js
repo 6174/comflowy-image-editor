@@ -109,7 +109,7 @@ export default {
   loadableDesignState: null,
   moreSaveOptions: [],
   savingPixelRatio: 4,
-  previewPixelRatio: window ? window.devicePixelRatio || 1 : 1,
+  previewPixelRatio: 4,
   showBackButton: false,
   useCloudimage: false,
   cloudimage: {
