@@ -159,11 +159,11 @@ const DesignLayer = () => {
   };
 
   const cacheImageNode = useCallback(() => {
-    if (imageNodeRef.current) {
-      imageNodeRef.current.cache();
-    } else {
-      setTimeout(cacheImageNode, 0);
-    }
+    // if (imageNodeRef.current) {
+    //   imageNodeRef.current.cache();
+    // } else {
+    //   setTimeout(cacheImageNode, 0);
+    // }
   }, []);
 
   const sizeAfterRotation = getSizeAfterRotation(
